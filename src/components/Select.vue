@@ -318,12 +318,11 @@
 </template>
 
 <script type="text/babel">
-  import pointerScroll from '../mixins/pointerScroll'
   import typeAheadPointer from '../mixins/typeAheadPointer'
   import ajax from '../mixins/ajax'
 
   export default {
-    mixins: [pointerScroll, typeAheadPointer, ajax],
+    mixins: [ajax],
 
     props: {
       /**
