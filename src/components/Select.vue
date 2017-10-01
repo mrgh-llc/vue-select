@@ -322,7 +322,7 @@
   import ajax from '../mixins/ajax'
 
   export default {
-    mixins: [ajax],
+    mixins: [ajax, typeAheadPointer],
 
     props: {
       /**
